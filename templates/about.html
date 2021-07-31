@@ -1,0 +1,34 @@
+
+{%extends "base.html"%}
+
+{%block aboutactive%} active {%endblock aboutactive%}
+
+{%block title%} About {%endblock title%}
+{% block body%}
+<h2 class="text-center my-4">About myself</h2>
+<div class="text-center">
+<img src="/static/thumb8.jpeg" alt="">
+</div>
+<h5 class="text-center my-4">Hi !
+  My name is Sayed Aminul (sAmH). I have interest and I like to do Coding, programming and technology. Currently I'm a BCA(Bachelor of Computer Application) 2nd Sem student. And I'm learning python and I make some projects on python3.
+  I can make django blog site and wordpress websites.
+  </h5>
+  <br>
+  <br>
+  <br>
+
+
+
+  {% comment %} <!--emmbed youtube videos on websites  this is emmbed code for   -->
+  <div class="container my-3">
+    <h1>My coding videos</h1>
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"allowfullscreen></iframe>
+    </div>
+  </div> {% endcomment %}
+  {% comment %} <!-- This is some text paragraph demo -->
+  <p>Do you know this is some paragraph demo. 
+    Voluptate perferendis minima sit cumque aperiam cum consequuntur voluptatem delectus maxime odio, 
+    incidunt dolorum ipsum vitae rerum assumenda blanditiis, velit voluptas necessitatibus.</p> {% endcomment %}
+
+ {% endblock body%}
